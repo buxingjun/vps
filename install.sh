@@ -19,13 +19,13 @@ echo
 
 main_menu() {
     echo "请选择一个操作:"
-    echo "1. 更新组件"
-    echo "2. XUI及调优"
-    echo "3. 面板管理"
-    echo "4. 订阅管理系统"
-    echo "5. 安装 Docker"
-    echo "6. 科技lion面板"
-    echo "7. 退出"
+    echo -e "${GREEN}1.${NC} 更新组件"
+    echo -e "${GREEN}2.${NC} XUI及调优"
+    echo -e "${GREEN}3.${NC} 面板管理"
+    echo -e "${GREEN}4.${NC} 订阅管理系统"
+    echo -e "${GREEN}5.${NC} 安装 Docker"
+    echo -e "${GREEN}6.${NC} 科技lion面板"
+    echo -e "${GREEN}7.${NC} 退出"
 
     read -p "输入你的选择 [1-7]: " choice
 
@@ -64,10 +64,10 @@ main_menu() {
 
 update_menu() {
     echo "请选择一个操作:"
-    echo "1. 安装 sudo"
-    echo "2. 安装 curl"
-    echo "3. 更新系统"
-    echo "4. 返回主菜单"
+    echo -e "${GREEN}1.${NC} 安装 sudo"
+    echo -e "${GREEN}2.${NC} 安装 curl"
+    echo -e "${GREEN}3.${NC} 更新系统"
+    echo -e "${GREEN}4.${NC} 返回主菜单"
 
     read -p "输入你的选择 [1-4]: " update_choice
 
@@ -96,14 +96,14 @@ update_menu() {
 
 xui_menu() {
     echo "请选择一个操作:"
-    echo "1. XUI安装"
-    echo "2. Hy2协议安装"
-    echo "3. 甬哥Singbox脚本安装"
-    echo "4. Tcp窗口优化"
-    echo "5. IPv4优先"
-    echo "6. 流媒体解锁测试"
-    echo "7. 三网回程测试"
-    echo "8. 返回主菜单"
+    echo -e "${GREEN}1.${NC} XUI安装"
+    echo -e "${GREEN}2.${NC} Hy2协议安装"
+    echo -e "${GREEN}3.${NC} 甬哥Singbox脚本安装"
+    echo -e "${GREEN}4.${NC} Tcp窗口优化"
+    echo -e "${GREEN}5.${NC} IPv4优先"
+    echo -e "${GREEN}6.${NC} 流媒体解锁测试"
+    echo -e "${GREEN}7.${NC} 三网回程测试"
+    echo -e "${GREEN}8.${NC} 返回主菜单"
 
     read -p "输入你的选择 [1-8]: " xui_choice
 
@@ -148,10 +148,10 @@ xui_menu() {
 
 panel_menu() {
     echo "请选择一个操作:"
-    echo "1. 宝塔面板国际版安装"
-    echo "2. 极光面板安装"
-    echo "3. 咸蛋面板安装"
-    echo "4. 返回主菜单"
+    echo -e "${GREEN}1.${NC} 宝塔面板国际版安装"
+    echo -e "${GREEN}2.${NC} 极光面板安装"
+    echo -e "${GREEN}3.${NC} 咸蛋面板安装"
+    echo -e "${GREEN}4.${NC} 返回主菜单"
 
     read -p "输入你的选择 [1-4]: " panel_choice
 
