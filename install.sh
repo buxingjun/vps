@@ -17,8 +17,13 @@ echo -e "${GREEN}作者博客: $BLOG${NC}"
 echo -e "${GREEN}作者JJ: $AUTHOR_JJ${NC}"
 echo
 
-# 创建别名
-alias fg='bash $0'
+# 获取当前脚本路径
+SCRIPT_PATH="$(realpath $0)"
+
+# 创建别名并添加到 .bashrc
+echo "alias fg='bash $SCRIPT_PATH'" >> ~/.bashrc
+# 为了立即生效，使用source加载.bashrc
+source ~/.bashrc
 
 main_menu() {
     echo "请选择一个操作:"
