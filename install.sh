@@ -17,6 +17,9 @@ echo -e "${GREEN}作者博客: $BLOG${NC}"
 echo -e "${GREEN}作者JJ: $AUTHOR_JJ${NC}"
 echo
 
+# 创建别名
+alias fg='bash /path/to/your/install.sh'
+
 main_menu() {
     echo "请选择一个操作:"
     echo -e "${GREEN}1.${NC} 更新组件"
