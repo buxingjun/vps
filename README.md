@@ -5,4 +5,4 @@ vps入手之后，要调优，要ffq，要建站，要中转，一个脚本就�
 bash <(curl -fsSL https://raw.githubusercontent.com/buxingjun/vps/main/setup.sh)
 ```
 ## 演示
-![image]()
+![image](https://tc.buxingjun.pp.ua/i/2024/06/26/203948.png)
