@@ -21,6 +21,7 @@ echo
 SCRIPT_PATH="$(realpath $0)"
 
 # 创建别名并添加到 .bashrc
+# 输入fg快速打开此脚本
 echo "alias fg='bash $SCRIPT_PATH'" >> ~/.bashrc
 # 为了立即生效，使用source加载.bashrc
 source ~/.bashrc
