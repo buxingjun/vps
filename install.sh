@@ -2,6 +2,7 @@
 
 # 定义颜色
 GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
 NC='\033[0m' # 没有颜色
 
 # 脚本信息
@@ -12,11 +13,13 @@ AUTHOR_JJ="nz.buxingjun.pp.ua:8008"
 
 # 显示脚本信息
 echo -e "${GREEN}##################################################${NC}"
-echo -e "${GREEN}# 脚本作者: $AUTHOR${NC}"
-echo -e "${GREEN}# 版本号: $VERSION${NC}"
-echo -e "${GREEN}# 作者博客: $BLOG${NC}"
-echo -e "${GREEN}# 作者JJ: $AUTHOR_JJ${NC}"
-echo -e "${GREEN}# 输入fg快速打开此脚本${NC}"
+echo -e "${GREEN}#                                                #${NC}"
+echo -e "${GREEN}# 脚本作者: $AUTHOR                              #${NC}"
+echo -e "${GREEN}# 版本号: $VERSION                               #${NC}"
+echo -e "${GREEN}# 作者博客: $BLOG                                #${NC}"
+echo -e "${GREEN}# 作者JJ: $AUTHOR_JJ                             #${NC}"
+echo -e "${YELLOW}# 输入fg快速打开此脚本                           #${NC}"
+echo -e "${GREEN}#                                                #${NC}"
 echo -e "${GREEN}##################################################${NC}"
 echo
 
