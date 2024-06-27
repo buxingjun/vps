@@ -11,17 +11,19 @@ BLOG="bt.buxingjun.top"
 AUTHOR_JJ="nz.buxingjun.pp.ua:8008"
 
 # 显示脚本信息
-echo -e "${GREEN}脚本作者: $AUTHOR${NC}"
-echo -e "${GREEN}版本号: $VERSION${NC}"
-echo -e "${GREEN}作者博客: $BLOG${NC}"
-echo -e "${GREEN}作者JJ: $AUTHOR_JJ${NC}"
+echo -e "${GREEN}##################################################${NC}"
+echo -e "${GREEN}# 脚本作者: $AUTHOR${NC}"
+echo -e "${GREEN}# 版本号: $VERSION${NC}"
+echo -e "${GREEN}# 作者博客: $BLOG${NC}"
+echo -e "${GREEN}# 作者JJ: $AUTHOR_JJ${NC}"
+echo -e "${GREEN}# 输入fg快速打开此脚本${NC}"
+echo -e "${GREEN}##################################################${NC}"
 echo
 
 # 获取当前脚本路径
 SCRIPT_PATH="$(realpath $0)"
 
 # 创建别名并添加到 .bashrc
-# 输入fg快速打开此脚本
 echo "alias fg='bash $SCRIPT_PATH'" >> ~/.bashrc
 # 为了立即生效，使用source加载.bashrc
 source ~/.bashrc
